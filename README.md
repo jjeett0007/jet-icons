@@ -1,4 +1,4 @@
-# Your JET Icon Library
+# Your React Icon Library
 
 Your React Icon Library is a collection of reusable components for easily integrating icons into your React applications. This documentation provides instructions on how to install and use the library.
 
@@ -9,4 +9,8 @@ To use this library in your project, you can install it via npm or yarn. Open yo
 ### NPM
 
 ```bash
-npm install your-react-icon-library
+npm install jet-icons
+
+or
+
+npm i jet-icons
