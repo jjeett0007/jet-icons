@@ -9,4 +9,8 @@ To use this library in your project, you can install it via npm or yarn. Open yo
 ### NPM
 
 ```bash
-npm install your-react-icon-library
+npm install jet-icons
+
+or
+
+npm i jet-icons
