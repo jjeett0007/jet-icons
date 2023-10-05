@@ -1,3 +1,4 @@
+import React from "react";
 import { LordIcon } from "../IconComponent/jet";
 
 type YourIconProps = {

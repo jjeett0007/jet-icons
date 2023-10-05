@@ -1,4 +1,4 @@
-type LordIconTriggers =
+type LordIconTrigger =
   | "hover"
   | "click"
   | "loop"
@@ -7,18 +7,18 @@ type LordIconTriggers =
   | "morph-two-way";
 
 
-type LordIconPropss = {
+type LordIconProps = {
   src?: string;
-  trigger?: LordIconTriggers;
+  trigger?: LordIconTrigger;
   colors?: string;
   delay?: string | number;
 };
 
-type LordIconElements = React.DetailedHTMLProps<
+type LordIconElement = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLElement>,
   HTMLElement
 > &
-  LordIconPropss;
+  LordIconProps;
 
 // lord-icon.d.ts
 

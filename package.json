@@ -2,6 +2,8 @@
   "name": "jet-icons",
   "version": "0.0.3",
   "type": "module",
+  "main": "src/main.tsx",
+  "types": "src/app.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
